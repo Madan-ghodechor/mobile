@@ -1,0 +1,178 @@
+cd filename -> get in Folder
+cd ..       -> get out from folder
+mkdir       -> make new folder/directory
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+
+*To Configure Git - by provided account
+	git config --global user.name "Madan-ghodechor"
+	git config --global user.email "madanghodechor6232@gmail.com"
+
+*To check List Of added config / accounts
+	git config --list
+
+*clone a repo
+	git init
+	git clone "https://github.com/Madan-ghodechor/Madan-ghodechor.git" <- link of project
+	
+	cd Madan-ghodechor -> To Change Directory
+	ls 		   -> to list all files
+	ls -a 		   -> to list hidden Files also
+	
+*git status 	   -> To Check Status of Updates
+		
+		Types of Status
+			1) untracked   -> new file to unknown git
+			2) modified    -> have done changes in file
+			3) unmodified  -> unchanged
+			4) staged      -> files is ready to committed
+
+*add - adds to staged area from current working directory
+	1) git add filename  -> for add one file.
+	2) git add .	  -> add all present Files
+
+*commit  - it will be recorded 
+	add meaning full msg
+	1) git commit -m "add new paragraph"
+
+*Push On Git Hub -> push Local to remote
+	1) git push origin 
+
+-------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+
+localfile -> convert to -> Git File
+	1) mkdir LocalRepo
+	2) cd LocalRepo
+		* ls -a
+	3) git init
+		*ls -a
+	
+*Create Repo On github without Readme.md file
+	copy the link from git hub
+
+	1) git remote add origin <link>
+	2) git remote -v 
+		this repos will be add and fetch by remote
+			origin  https://github.com/Madan-ghodechor/localRepo.git (fetch)
+			origin  https://github.com/Madan-ghodechor/localRepo.git (push)
+	
+	3) git branch
+		check in which branch we are.
+	
+	4) git branch -M main -> (main is a new name)
+		rename branch name
+
+	5) git push -u origin main
+		to set by default push into main file
+	
+	*5) After only [ git push ]
+
+-------------------------------------------------------------------------------------
+------------------- Add README.md File to git hub ------------------------
+-------------------------------------------------------------------------------------
+cmd 					-> git init
+CREATE FILE 			-> README.md
+CHECK Git status  		-> git status
+UPDATE FILES status		-> git add .
+ADD COMMIT THEIR		-> git commit -m "write a commit here"
+PUSH FILE TO github		-> 
+							if its first time  ->  git push -u origin main
+							else 			   ->  git push
+
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+								Branch Cammands
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+1) git branch   						-> To check presmt branches
+2) git branch -M main					-> To rename the branch name
+3) git checkout	( branchname )			-> To check branches in git
+4) git checkout -b ( new branchname )	-> To create new branch
+5) git branch -d ( branch name )		-> To delete branch
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+								Merge Git-Hub Code
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+
+Fetch
+	Way 1 >
+		git diff <- branch name > 			->	To compare commits, branches, files & more
+			1) git merge <filename>			->  which branch wants to impliment with current branch
+				git merge main
+			2) do changes and git add . , git commit -m"" ,git push
+
+----------------------------------------------------------------------------------
+	here is the err to git -> CONFLICT / merge conflict in file.html
+----------------------------------------------------------------------------------
+
+	Way 2 >
+	DO Chnages On Remote
+		Send Pull Request
+			1) compare and pull request
+			2) create pull request 
+			3) merge pull req
+			4) confirm merge   -> Pull request successfully merged and closed
+		
+		Remote To Local
+		Pull 
+		`git pull origin main`
+
+			`used to fetch and download content from remote repo and immediately update the local repo to match that content`
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+										Undoing Changes
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+1) file were added but not committed -> How To undo added
+	if i hit `git add .` but suddenly remembered that i have deleted something.
+	so `git reset` will remove that added changes from git only not in code.
+		 I ] git reset <filename>  ==>> for Single file
+		II ] git reset 			  ==>> for Multiple file
+
+2) File were added And Also Committed  -> How To undo Committed
+	if i hit `git add . && git commit -m "" ` but i want to remove recent Commite
+	
+	To Check Commit's  `git log`
+
+	 I ] Go back to single commit
+		`git reset HEAD~1`
+
+	II ] Multiple Commit's Back
+		1) git log 		-> copy yellow hash code
+		2) git reset < paste hash-code >
+	
+	III ] Multiple Commit's && Codes Back
+		1) git log		-> copy yellow hash code
+		2) gir reset --hard   < hash-code >
+
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+									Creating Fork Into GitHub
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+	what is the fork ?
+		fork is the method were we can take someones code to our Repo ( in Master Branch).
+		we can edit / delete / update and Pull Request (PR) to Auther
+
+	1) go to github  -> search a code -> click on heading of file
+	2) click on fork -> create new fork
+	3) click on the `Create Fork` Button
