@@ -25,7 +25,7 @@ body {
   }
   
   a.filled-button {
-      background-color: #a4c639;
+      background-color: orangered;
       color: #fff;
       font-size: 13px;
       text-transform: uppercase;
@@ -38,7 +38,7 @@ body {
   
   a.filled-button:hover {
       background-color: #fff;
-      color: #a4c639;
+      color: orangered;
   }
   
   a.border-button {
@@ -56,7 +56,7 @@ body {
   
   a.border-button:hover {
       background-color: #fff;
-      color: #a4c639;
+      color: orangered;
   }
   
   .section-heading {
@@ -72,7 +72,7 @@ body {
   
   .section-heading em {
       font-style: normal;
-      color: #a4c639;
+      color: orangered;
   }
   
   .section-heading span {
@@ -166,7 +166,7 @@ body {
   /* Sub Header Style */
   
   .sub-header {
-      background-color: #a4c639;
+      background-color: orangered;
       height: 46px;
       line-height: 46px;
   }
@@ -247,7 +247,7 @@ body {
       box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
   }
   .background-header .navbar-brand h2 {
-      color: #a4c639!important;
+      color: orangered!important;
   }
   .background-header .navbar-nav a.nav-link {
       color: #1e1e1e!important;
@@ -257,7 +257,7 @@ body {
   .background-header .navbar-nav .nav-link.active,
   .background-header .navbar-nav .nav-link.show,
   .background-header .navbar-nav .show>.nav-link {
-      color: #a4c639!important;
+      color: orangered!important;
   }
   .navbar .navbar-brand {
       float: 	left;
@@ -301,8 +301,8 @@ body {
   .navbar .navbar-nav .nav-link.active,
   .navbar .navbar-nav .nav-link.show,
   .navbar .navbar-nav .show>.nav-link {
-      color: #a4c639;
-      border-bottom: 3px solid #a4c639;
+      color: orangered;
+      border-bottom: 3px solid orangered;
   }
   .navbar .navbar-toggler-icon {
       background-image: none;
@@ -319,7 +319,7 @@ body {
   }
   .navbar .navbar-toggler-icon:after {
       content: '\f0c9';
-      color: #a4c639;
+      color: orangered;
       font-size: 18px;
       line-height: 26px;
       font-family: 'FontAwesome';
@@ -460,7 +460,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
-    color:#a4c639;
+    color:orangered;
     animation:fadeOutRight 1s both;
   }
   
@@ -527,7 +527,7 @@ body {
   /* Request Form */
   
   .request-form {
-      background-color: #a4c639;
+      background-color: orangered;
       padding: 40px 0px;
       color: #fff;
   }
@@ -581,12 +581,12 @@ body {
   
   .page-link:hover,
   .page-link {
-      color: #a4c639;
+      color: orangered;
   }
   
   .btn-primary {
-      border-color: #a4c639;
-      background-color: #a4c639;
+      border-color: orangered;
+      background-color: orangered;
   }
   
   .btn-primary:hover,
@@ -594,8 +594,8 @@ body {
   .btn-primary:active,
   .btn-primary:active:focus{
       opacity: 0.6;
-      border-color: #a4c639;
-      background-color: #a4c639;
+      border-color: orangered;
+      background-color: orangered;
   }
   
   
@@ -646,7 +646,7 @@ body {
   
   .fun-facts em {
       font-style: normal;
-      color: #a4c639;
+      color: orangered;
   }
   
   .fun-facts p {
@@ -667,7 +667,7 @@ body {
   
   .count-digit {
       margin: 5px 0px;
-      color: #a4c639;
+      color: orangered;
       font-weight: 700;
       font-size: 36px;
   }
@@ -725,7 +725,7 @@ body {
   
   .more-info .right-content em {
       font-style: normal;
-      color: #a4c639;
+      color: orangered;
   }
   
   .more-info .right-content p {
@@ -766,7 +766,7 @@ body {
       margin-top: 8px;
       font-weight: 600;
       font-size: 14px;
-      color: #a4c639;
+      color: orangered;
   }
   .testimonial-item img {
       max-width: 60px;
@@ -799,7 +799,7 @@ body {
   }
   
   .callback-form .contact-form {
-      background-color: #a4c639;
+      background-color: orangered;
       padding: 60px;
       border-radius: 5px;
       text-align: center;
@@ -877,11 +877,11 @@ body {
   
   .callback-form .contact-form button.border-button:hover {
       background-color: #fff;
-      color: #a4c639;
+      color: orangered;
   }
   
   .contact-us .contact-form button.filled-button {
-      background-color: #a4c639;
+      background-color: orangered;
       color: #fff;
       border: none;
       font-size: 13px;
@@ -899,7 +899,7 @@ body {
   
   .contact-us .contact-form button.filled-button:hover {
       background-color: #fff;
-      color: #a4c639;
+      color: orangered;
   }
   
   
@@ -973,7 +973,7 @@ body {
   }
   
   footer ul.social-icons li a:hover {
-      background-color: #a4c639;
+      background-color: orangered;
   }
   
   footer ul.menu-list li {
@@ -991,7 +991,7 @@ body {
   }
   
   footer ul.menu-list li a:hover {
-      color: #a4c639;
+      color: orangered;
   }
   
   footer .contact-form input {
@@ -1052,7 +1052,7 @@ body {
   footer .contact-form button.filled-button {
       background-color: transparent;
       color: #fff;
-      background-color: #a4c639;
+      background-color: orangered;
       border: none;
       font-size: 13px;
       text-transform: uppercase;
@@ -1069,7 +1069,7 @@ body {
   
   footer .contact-form button.filled-button:hover {
       background-color: #fff;
-      color: #a4c639;
+      color: orangered;
   }
   
   
@@ -1163,7 +1163,7 @@ body {
   }
   
   .team-item .down-content span {
-      color: #a4c639;
+      color: orangered;
       font-weight: 600;
       font-size: 14px;
       display: block;
@@ -1198,7 +1198,7 @@ body {
       width: 100%;
       padding: 20px;
       display: inline-block;
-      background-color: #a4c639;
+      background-color: orangered;
         font-size: 18px;
         color: #121212;
         letter-spacing: 0.5px;
@@ -1249,7 +1249,7 @@ body {
   
   .dropdown-item.active, 
   .dropdown-item:active {
-      background-color: #a4c639;
+      background-color: orangered;
   }
   
   /* Contact Information */
@@ -1265,7 +1265,7 @@ body {
   }
   
   .contact-information .contact-item i {
-      color: #a4c639;
+      color: orangered;
       font-size: 48px;
       margin-bottom: 40px;
   }
@@ -1283,7 +1283,7 @@ body {
   
   .contact-information .contact-item a {
       font-weight: 600;
-      color: #a4c639;
+      color: orangered;
       font-size: 15px;
   }
   
@@ -1397,10 +1397,10 @@ body {
       .navbar .navbar-nav .nav-link.active,
       .navbar .navbar-nav .nav-link.show,
       .navbar .navbar-nav .show>.nav-link {
-          color: #a4c639!important;
+          color: orangered!important;
           border-bottom: none!important;
       }
   }
   
-  h5 a { color: #a4c639; } 
+  h5 a { color: orangered; } 
   h5 a:hover { color: inherit; } 
